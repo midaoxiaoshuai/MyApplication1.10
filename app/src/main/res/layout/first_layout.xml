@@ -25,4 +25,40 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Start DialogActivity"/>
+    <Button
+        android:id="@+id/startAlertDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start NormalActivity" />
+    <Button
+        android:id="@+id/startServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Service" />
+    <Button
+        android:id="@+id/stopServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Service" />
+    <Button
+        android:id="@+id/bindServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bind Service" />
+    <Button
+        android:id="@+id/unbindServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unbind Service" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Broadcast"
+        />
+    <Button
+        android:id="@+id/forceOffline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send force offline broadcast" />
 </LinearLayout>
